@@ -1,0 +1,47 @@
+/*
+MY COLOR PALETTE
+Color 1 - #EFF1ED
+Color 2 - #373D20
+Color 3 - #717744
+Color 4 - #BCBD8B
+Color 5 - #766153
+Color 6 - #2b2f1f
+*/
+
+/* TOP PAGE */
+
+/* MAIN BODY */
+h1 {
+    font-family: "Radley", serif;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: xx-large;
+    margin: 10px 0px 0px 20px;
+}
+
+#headshot {
+    width: 100%;
+    border-radius: 30px;
+    border:8px solid white;
+    margin-right: 20px
+}
+
+#topper{
+    background: #2b2f1f;
+}
+.job{margin-bottom:20px}
+#opening_body{background: #eff1ed;
+  
+}
+
+.button {
+    margin: 50px;
+    border: none;
+    width: 200px;
+    background-color: #717744;
+    color: #eff1ed;
+    font-family: "Radley", serif;
+    font-size: small;
+    font-style: normal;
+}
