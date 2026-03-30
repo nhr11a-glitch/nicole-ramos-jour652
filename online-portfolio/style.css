@@ -1,6 +1,6 @@
 /*
 MY COLOR PALETTE
-Color 1 - #EFF1ED
+Color 1 - #e0e7d9
 Color 2 - #373D20
 Color 3 - #717744
 Color 4 - #BCBD8B
@@ -8,40 +8,211 @@ Color 5 - #766153
 Color 6 - #2b2f1f
 */
 
-/* TOP PAGE */
+/* MEDIA SCREEN */
+@media screen {
+    .name {
+        font-size: 100px;
+    }
+    .title {
+        text-decoration: underline;
+    }
+    .job-title {
+        text-decoration: underline;
+    }
 
-/* MAIN BODY */
-h1 {
-    font-family: "Radley", serif;
-    letter-spacing: 5px;
-    font-weight: lighter;
-    font-style: italic;
-    font-size: xx-large;
-    margin: 10px 0px 0px 20px;
-}
+    /* ALL SITE RULES */
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
 
-#headshot {
-    width: 100%;
-    border-radius: 30px;
-    border:8px solid white;
-    margin-right: 20px
-}
+    h4 {
+        font-family: "Mulish", sans-serif;
+        letter-spacing: 2px;
+        text-decoration-line: overline;
+        margin-top: 20px;
+    }
 
-#topper{
-    background: #2b2f1f;
-}
-.job{margin-bottom:20px}
-#opening_body{background: #eff1ed;
-  
-}
+    h5 {
+        font-family: "Mulish", sans-serif;
+        font-weight: 300;
+        letter-spacing: 2px;
+        margin-top: 10px;
+    }
 
-.button {
-    margin: 50px;
-    border: none;
-    width: 200px;
-    background-color: #717744;
-    color: #eff1ed;
-    font-family: "Radley", serif;
-    font-size: small;
-    font-style: normal;
+    .dates {
+        font-family: "Mulish", sans-serif;
+        font-style: italic;
+        padding: none;
+        font-size: 15px;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    p {
+        font-family: "Mulish", sans-serif;
+        font-weight: 250;
+        font-size: 20px;
+        padding: 15px;
+        margin-right: 10px;
+    }
+
+    /* NAVIGATION AND TOPPER */
+    #navigation {
+        background: #2b2f1f;
+    }
+
+    .nav {
+        font-family: "Mulish", sans-serif;
+        justify-content: center;
+        font-weight: lighter;
+        letter-spacing: 3px;
+        font-size: 25px;
+        margin: 10px 0px 0px 10px;
+    }
+
+    .nav a {
+        color: #e0e7d9;
+        text-decoration: none;
+    }
+
+    .nav a:hover {
+        text-decoration: overline;
+    }
+
+    #topperpage {
+        background: #e0e7d9;
+    }
+
+    .name {
+        font-family: "Oswald", sans-serif;
+        color: #2b2f1f;
+        text-align: center;
+        font-weight: lighter;
+        margin-top: 40px;
+    }
+
+    .title {
+        font-family: "Mulish", sans-serif;
+        color: #2b2f1f;
+        text-align: center;
+        font-weight: normal;
+        font-size: 35px;
+        letter-spacing: 3px;
+        margin-top: 40px;
+    }
+
+    .button {
+        border-block-start-width: thick;
+        border-color: #2b2f1f;
+        width: 250px;
+        background-color: #717744;
+        color: #e0e7d9;
+        font-family: "Mulish", sans-serif;
+        font-size: medium;
+        letter-spacing: 2px;
+        display: block;
+        margin: 80px auto;
+    }
+
+    #headshot {
+        width: 400px;
+        height: 400px;
+        display: block;
+        margin: 40px auto;
+    }
+
+    /* EXPERIENCE */
+    #experiencepage {
+        background-color: #bcbd8b;
+    }
+
+    #experience {
+        font-family: "Oswald", sans-serif;
+        color: #2b2f1f;
+        font-size: 50px;
+        letter-spacing: 3px;
+        margin-left: 20px;
+    }
+
+    .job {
+        margin: 10px 20px 20px 10px;
+    }
+
+    .job-title {
+        color: #2b2f1f;
+    }
+
+    /* SKILLS */
+    #skillspage {
+        background-color: #717744;
+    }
+
+    #skills {
+        font-family: "Oswald", sans-serif;
+        color: #2b2f1f;
+        letter-spacing: 3px;
+        font-size: 50px;
+        margin-left: 20px;
+    }
+
+    li {
+        font-family: "Mulish", sans-serif;
+        font-weight: 350px;
+        font-size: 20px;
+        padding: 20px;
+        margin: 20px 40px 20px 40px;
+    }
+
+    /* EDUCATION */
+    #educationpage {
+        background-color: #2b2f1f;
+    }
+
+    #education {
+        font-family: "Oswald", sans-serif;
+        color: #bcbd8b;
+        font-size: 50px;
+        letter-spacing: 3px;
+        margin-left: 20px;
+    }
+
+    #education-stats {
+        color: #e0e7d9;
+        margin: 20px 40px 20px 40px;
+        padding: 20px;
+    }
+
+    .university {
+        font-weight: lighter;
+    }
+
+    /* COPYRIGHT */
+    #copyrightpage {
+        background-color: #2b2f1f;
+    }
+
+    #copyright {
+        color: #bcbd8b;
+        font-size: 10px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+}
+/* MEDIA SCREEN */
+@media (min-width: 576px) {
+    .name {
+        font-size: 175px;
+    }
+    .title {
+        text-decoration: overline;
+    }
+    .job-title {
+        text-decoration: overline;
+    }
 }

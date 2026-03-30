@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <title>Nicole Ramos Portfolio</title>
+
+        <!--bootstrapandstylesheetlink-->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -12,34 +14,39 @@
             crossorigin="anonymous" />
 
         <link href="style.css" rel="stylesheet" />
+
+        <!--fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Radley:ital@0;1&display=swap" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap"
+            rel="stylesheet" />
     </head>
 
     <body>
         <!--navigationbar-->
-        <div class="container-fluid" id="topper">
+        <div class="container-fluid" id="navigation">
             <div class="row">
                 <div class="col-sm-4">
-                    <h4>EXPERIENCE</h4>
+                    <p class="nav"><a href="#experience">Experience</a></p>
                 </div>
                 <div class="col-sm-4">
-                    <h4>SKILLS</h4>
+                    <p class="nav"><a href="#skills">Skills</a></p>
                 </div>
                 <div class="col-sm-4">
-                    <h3>EDUCATION</h3>
+                    <p class="nav"><a href="#education">Education</a></p>
                 </div>
             </div>
         </div>
 
         <!--endnavigation-->
-        <div class="container-fluid" id="opening_body">
+        <!--begintopper-->
+        <div class="container-fluid" id="topperpage">
             <div class="row">
                 <div class="col-sm-8">
                     <h1 class="name">Nicole Ramos</h1>
-                    <h2 class="title">Howard Fellow and Reporter</h2>
-                    <button class="button">Connect!</button>
+                    <h2 class="title">Graduate Student & Reporter</h2>
+                    <button class="button" onclick="window.open('mailto:nhr11a@umd.edu')">Connect</button>
                 </div>
                 <div class="col-sm-4">
                     <img src="Screenshot%202026-02-09%20125135.jpg" id="headshot" />
@@ -47,27 +54,163 @@
             </div>
         </div>
 
-        <div class="container-fluid">
+        <!--endtopper-->
+        <!--beginexperience-->
+        <div class="container-fluid" id="experiencepage">
             <div class="row">
-                <div class="col"><h3>Experience</h3></div>
-
+                <div class="col"><h3 id="experience">Experience</h3></div>
+                <!--job1-->
                 <div class="row job">
-                    <div class="col-sm-3">
-                        <h4>Job Title</h4>
-                        <h5>Company</h5>
-                        <h6>Date</h6>
+                    <div class="col-sm-4">
+                        <h4 class="job-title">Fellow & Investigative Reporter</h4>
+                        <h5>Howard Center for Investigative Journalism</h5>
+                        <h5 class="dates">Jul. 2025 – Present</h5>
                     </div>
-                    <div class="col-sm-9"><p>Description</p></div>
+                    <div class="col-sm-8 fullwidth">
+                        <p>
+                            I work collaboratively with colleagues from the University of Maryland and professional
+                            journalists on investigative reporting projects. I have conducted in-depth interviews, led
+                            OSINT research, and successfully completed public information requests in the United States
+                            and Mexico.
+                        </p>
+                    </div>
                 </div>
-                </div>
-
+                <!--job2-->
                 <div class="row job">
-                    <div class="col-sm-3">
-                        <h4>Job Title</h4>
-                        <h5>Company</h5>
-                        <h6>Date</h6>
+                    <div class="col-sm-4">
+                        <h4 class="job-title">Capital Mitigation Specialist</h4>
+                        <h5>Texas Defender Service</h5>
+                        <h5 class="dates">Oct. 2021 – July 2025</h5>
                     </div>
-                    <div class="col-sm-9"><p>Description</p></div>
+                    <div class="col-sm-8 fullwidth">
+                        <p>
+                            I organized 10 investigations for defense teams, including record collection, open-source
+                            research, source interviews, and strategic narrative building. I prepared 20 legal reports
+                            based on investigations and oversaw the punishment phase defense for a capital trial.
+                        </p>
+                    </div>
+                </div>
+                <!--job3-->
+                <div class="row job">
+                    <div class="col-sm-4">
+                        <h4 class="job-title">ORR Case Manager</h4>
+                        <h5>Bokenkamp Children's Shelter</h5>
+                        <h5 class="dates">July 2018 – Jan. 2019</h5>
+                    </div>
+                    <div class="col-sm-8 fullwidth">
+                        <p>
+                            Working under the Office of Refugee Resettlement, I led short-term investigations in English
+                            and Spanish. I successfully reunited 30 unaccompanied refugee children with sponsors in the
+                            United States via trauma-informed interviewing and well-organized case management.
+                        </p>
+                    </div>
+                </div>
+                <!--job4-->
+                <div class="row job">
+                    <div class="col-sm-4">
+                        <h4 class="job-title">Peace Corps Volunteer</h4>
+                        <h5>Peace Corps</h5>
+                        <h5 class="dates">Feb. 2016 – April 2018</h5>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>
+                            As a Teaching English, Leadership, and Life Skills Volunteer, I facilitated 15 community
+                            development projects, reaching 2000 people while living in an Indigenous community in Bocas
+                            Del Toro, Panama. I liaised with diverse government ministries, colleagues, and Indigenous
+                            community leaders.
+                        </p>
+                    </div>
+                </div>
+                <!--job5-->
+                <div class="row job">
+                    <div class="col-sm-4">
+                        <h4 class="job-title">Give a Goat Program Intern</h4>
+                        <h5>Arapal Nature Farm</h5>
+                        <h5 class="dates">June 2015 – Aug. 2015</h5>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>
+                            I assisted with the monitoring and evaluation of the organization’s economic development
+                            program and was hands-on with the daily maintenance of their organic farm. In addition, I
+                            assisted in rural and urban community outreach around the island of Cebu, Philippines.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--endexperience-->
+        <!--beginskills-->
+        <div class="container-fluid" id="skillspage">
+            <div class="row">
+                <div class="col"><h3 id="skills">Skills</h3></div>
+                <!--col1-->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <ul>
+                            <li>Spanish (read, speak, write)</li>
+                            <li>R</li>
+                            <li>Basic HTML & CSS</li>
+                            <li>Data visualization</li>
+                            <li>Google suite</li>
+                        </ul>
+                    </div>
+                    <!--col2-->
+                    <div class="col-sm-4">
+                        <ul>
+                            <li>Photography</li>
+                            <li>Open-source research</li>
+                            <li>Legal research</li>
+                            <li>Trauma-informed interviewing</li>
+                            <li>Community engagement</li>
+                        </ul>
+                    </div>
+                    <!--col3-->
+                    <div class="col-sm-4">
+                        <ul>
+                            <li>International field experience</li>
+                            <li>Fact-checking</li>
+                            <li>Collaboration</li>
+                            <li>Project management</li>
+                            <li>Record collection & management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--endskills-->
+        <!--begineducation-->
+        <div class="container-fluid" id="educationpage">
+            <div class="row">
+                <div class="col"><h3 id="education">Education</h3></div>
+                <!--col1-->
+                <div class="row" id="education-stats">
+                    <div class="col-sm-4">
+                        <h5>Master of Journalism</h5>
+                        <h6 class="university">University of Maryland, College Park</h6>
+                        <h5 class="dates">Expected graduation May 2027</h5>
+                    </div>
+                    <!--col2-->
+                    <div class="col-sm-4">
+                        <h5>Master of Science, International Relations</h5>
+                        <h6 class="university">Northeastern University</h6>
+                        <h5 class="dates">2020</h5>
+                    </div>
+                    <!--col3-->
+                    <div class="col-sm-4">
+                        <h5>Bachelor of Arts, Ministry and Vocation</h5>
+                        <h6 class="university">Abilene Christian University</h6>
+                        <h5 class="dates">2015</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--begincopyright-->
+        <div class="container-fluid" id="copyrightpage">
+            <div class="row">
+                <div class="col"><p id="copyright">Copyright 2026 | Nicole Ramos</p></div>
             </div>
         </div>
     </body>
