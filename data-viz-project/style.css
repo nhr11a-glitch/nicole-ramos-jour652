@@ -1,0 +1,40 @@
+html,
+body {
+    font-family: "Coda", system-ui;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+h1 {
+    font: bolder;
+    padding: 10px;
+}
+
+#byline {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: medium;
+    padding: 10px;
+}
+
+#date {
+    font-size: small;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+p {
+    font-weight: normal;
+}
+
+#map {
+    width: 70%;
+    margin: auto;
+}
+
+#chart {
+    width: 70;
+    margin: auto;
+    padding: 20px;
+}
